@@ -17,4 +17,4 @@ function to_lower($array){
     return array_reduce($lower_case_array, "reduce_array", "");
 }
 $new_texts = to_lower($texts);
-print(str_replace(")-", "", $new_texts));
+print($new_texts);
